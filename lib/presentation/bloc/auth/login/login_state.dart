@@ -3,7 +3,6 @@ import 'package:formz/formz.dart';
 
 import '../../../widgets/forms/email_form_input.dart';
 import '../../../widgets/forms/password_form_input.dart';
-import '../../../widgets/forms/form_extensions.dart';
 
 class LoginState extends Equatable {
   final EmailFormInput email;

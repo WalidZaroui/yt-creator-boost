@@ -9,6 +9,7 @@ import '../../../config/router/app_route_constants.dart';
 import '../../bloc/auth/signup/signup_cubit.dart';
 import '../../bloc/auth/signup/signup_state.dart';
 import '../../widgets/base_widgets/custom_text_field.dart';
+import '../../widgets/forms/form_extensions.dart'; // Add this import
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});

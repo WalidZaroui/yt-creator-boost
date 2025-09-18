@@ -1,8 +1,8 @@
-import 'package:yt_creator_boost/presentation/widgets/forms/name_form_input.dart';
-
 import 'email_form_input.dart';
 import 'password_form_input.dart';
+import 'name_form_input.dart';
 
+// Extension for EmailFormInputError
 extension EmailFormInputErrorX on EmailFormInputError {
   String get message {
     switch (this) {
@@ -14,6 +14,7 @@ extension EmailFormInputErrorX on EmailFormInputError {
   }
 }
 
+// Extension for PasswordFormInputError
 extension PasswordFormInputErrorX on PasswordFormInputError {
   String get message {
     switch (this) {
@@ -27,6 +28,7 @@ extension PasswordFormInputErrorX on PasswordFormInputError {
   }
 }
 
+// Extension for NameFormInputError
 extension NameFormInputErrorX on NameFormInputError {
   String get message {
     switch (this) {
@@ -37,7 +39,7 @@ extension NameFormInputErrorX on NameFormInputError {
       case NameFormInputError.tooLong:
         return 'Name must be less than 50 characters';
       case NameFormInputError.invalid:
-        return 'invalid';
+        return 'Please enter a valid name';
     }
   }
 }

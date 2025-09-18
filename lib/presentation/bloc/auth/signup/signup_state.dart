@@ -3,7 +3,7 @@ import 'package:formz/formz.dart';
 
 import '../../../widgets/forms/email_form_input.dart';
 import '../../../widgets/forms/password_form_input.dart';
-import '../../../widgets/forms/form_extensions.dart';
+import '../../../widgets/forms/name_form_input.dart';
 
 class SignupState extends Equatable {
   final NameFormInput name;

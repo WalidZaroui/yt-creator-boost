@@ -5,6 +5,7 @@ import '../../../../core/resources/data_state.dart';
 import '../../../../domain/repositories/auth_repository.dart';
 import '../../../widgets/forms/email_form_input.dart';
 import '../../../widgets/forms/password_form_input.dart';
+import '../../../widgets/forms/form_extensions.dart';
 import 'login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {

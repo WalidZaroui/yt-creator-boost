@@ -7,7 +7,7 @@ class PasswordFormInput extends FormzInput<String, PasswordFormInputError> {
   const PasswordFormInput.dirty([String value = '']) : super.dirty(value);
 
   static final RegExp _passwordRegex = RegExp(
-      r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+',
+    r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+',
   );
 
   @override
@@ -43,18 +43,5 @@ class StrongPasswordFormInput extends FormzInput<String, PasswordFormInputError>
     }
 
     return null;
-  }
-}
-
-extension PasswordFormInputErrorX on PasswordFormInputError {
-  String get message {
-    switch (this) {
-      case PasswordFormInputError.empty:
-        return 'Password is required';
-      case PasswordFormInputError.tooShort:
-        return 'Password must be at least 6 characters';
-      case PasswordFormInputError.weak:
-        return 'Password must contain uppercase, lowercase, and number';
-    }
   }
 }

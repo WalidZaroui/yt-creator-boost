@@ -33,18 +33,3 @@ class NameFormInput extends FormzInput<String, NameFormInputError> {
     return null;
   }
 }
-
-extension NameFormInputErrorX on NameFormInputError {
-  String get message {
-    switch (this) {
-      case NameFormInputError.empty:
-        return 'Name is required';
-      case NameFormInputError.tooShort:
-        return 'Name must be at least 2 characters';
-      case NameFormInputError.tooLong:
-        return 'Name must be less than 50 characters';
-      case NameFormInputError.invalid:
-        return 'Please enter a valid name';
-    }
-  }
-}
