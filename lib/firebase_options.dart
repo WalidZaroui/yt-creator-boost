@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAQVVQs-6yLhfApsm-CkuFVg-KufgJjbNg',
-    appId: '1:701384752992:android:c20b9cac84c412f588e805',
-    messagingSenderId: '701384752992',
-    projectId: 'yt-creator-boost',
-    storageBucket: 'yt-creator-boost.firebasestorage.app',
+    apiKey: 'AIzaSyCBpePsy4af5fznEbBWIe3dbLk2IYeKkvs',
+    appId: '1:280199433953:android:eb7a62e09118d18345b1a0',
+    messagingSenderId: '280199433953',
+    projectId: 'yt-creator-boost-5b40d',
+    storageBucket: 'yt-creator-boost-5b40d.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBnjVZFqkf6JJuUkyAWtF-wjIeJWPj8Xyo',
-    appId: '1:701384752992:ios:4bb369a177843fff88e805',
-    messagingSenderId: '701384752992',
-    projectId: 'yt-creator-boost',
-    storageBucket: 'yt-creator-boost.firebasestorage.app',
+    apiKey: 'AIzaSyDy2XlCjyuMiazU3uFcBBBQc4ka8oVROP0',
+    appId: '1:280199433953:ios:c0a5fe92efd31bfb45b1a0',
+    messagingSenderId: '280199433953',
+    projectId: 'yt-creator-boost-5b40d',
+    storageBucket: 'yt-creator-boost-5b40d.firebasestorage.app',
     iosBundleId: 'com.example.ytCreatorBoost',
   );
 

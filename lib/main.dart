@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'firebase_options.dart';
 
@@ -15,12 +14,8 @@ void main() async {
     );
     print('✅ Firebase initialized successfully');
 
-    // Initialize AdMob
-    await MobileAds.instance.initialize();
-    print('✅ AdMob initialized successfully');
-
   } catch (e) {
-    print('❌ Firebase/AdMob initialization error: $e');
+    print('❌ Firebase initialization error: $e');
   }
 
   runApp(const YTCreatorBoostApp());

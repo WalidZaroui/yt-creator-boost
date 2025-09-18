@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "701384752992",
-    "project_id": "yt-creator-boost",
-    "storage_bucket": "yt-creator-boost.firebasestorage.app"
+    "project_number": "280199433953",
+    "project_id": "yt-creator-boost-5b40d",
+    "storage_bucket": "yt-creator-boost-5b40d.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:701384752992:android:c20b9cac84c412f588e805",
+        "mobilesdk_app_id": "1:280199433953:android:eb7a62e09118d18345b1a0",
         "android_client_info": {
           "package_name": "com.example.yt_creator_boost"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAQVVQs-6yLhfApsm-CkuFVg-KufgJjbNg"
+          "current_key": "AIzaSyCBpePsy4af5fznEbBWIe3dbLk2IYeKkvs"
         }
       ],
       "services": {
