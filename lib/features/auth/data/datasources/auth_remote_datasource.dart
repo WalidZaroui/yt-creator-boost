@@ -138,7 +138,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
       // Get this from Firebase Console > Project Settings > General tab > Web app
       await _googleSignIn.initialize(
         // Replace with your actual web client ID from Firebase Console
-        serverClientId: 'YOUR_WEB_CLIENT_ID.apps.googleusercontent.com',
+        serverClientId: '280199433953-4ejncr9rhrblkrda6kk2qqsrlgluko43.apps.googleusercontent.com',
         // You can also set other options here if needed
       );
       print('✅ Google Sign-In initialized successfully');

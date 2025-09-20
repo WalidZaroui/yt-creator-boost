@@ -48,3 +48,9 @@ app.*.map.json
 .env*
 assets/config/app_config.json
 google-services.json.backup
+
+
+build/
+android/build/
+android/app/build/
+ios/Pods/
